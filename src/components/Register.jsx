@@ -28,6 +28,7 @@ const RegisterPage = () => {
     }
     toast.success('Registro Exitoso')
     setUsers({ email: '', password: '', confirmPassword: '' })
+    // comentario
   }
 
   return (
